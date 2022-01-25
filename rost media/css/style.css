@@ -1,0 +1,371 @@
+@font-face{
+    font-family: ubunturegular;
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+.old_br{
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+.old_br ul{
+    list-style: none;
+}
+header{
+    position: relative;
+}
+.wrapper{
+    margin: 0 auto;
+    overflow: visible;
+    min-width: 980px;
+}
+.fon{
+    position: absolute;
+    z-index: -999;
+    width: 100%;
+    height: 592px;
+    left: 0;
+}
+.header_main{
+    position: relative;
+}
+.header_bg{
+    position: absolute;
+    height: 91px;
+    z-index: -5;
+    width: 100%;
+    left: -19px;
+}
+.header_logo{
+    margin:  14px 0 0 320px;
+    display: inline-block;
+}
+.telephon{
+    display: inline-block;
+    float: right;
+    margin: 8px 234px 0 0;
+}
+.telephon p{
+    font-size: medium;
+    font-size: 20px;
+    color: #f0047f;
+    font-family: ubunturegular;
+}
+.telephon p::before{
+    width: 19px;
+    height: 19px;
+    content: "";
+    background-image: url(../img/phone.png);
+    display: inline-block;
+    margin: 0 6px -2px 0;
+}
+.header_nav{
+    display: inline-block;
+    float: right;
+    margin: -15px 231px 0 0;
+}
+.header_nav li{
+float: left;
+margin-left: 19px;
+}
+.header_nav li a{
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: ubunturegular;
+    color: #616161;
+}
+.people{
+    position: relative;
+    display: inline-block;
+    top: 75px;
+    left: 390px;
+}
+.people img{
+    position: absolute;
+}
+.they{
+    position: absolute;
+    z-index: -9;
+}
+.greenR{
+    z-index: -20;
+    top: 107px;
+    left:299px;
+    animation: greenR 1s linear infinite;
+    transform-origin: 50% 0%;
+}
+@keyframes greenR{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(0.9);
+    }
+    30%{
+        transform: scale(1);
+    }
+    70%{
+        transform: scale(0.9);
+    }
+    100%{
+transform: scale(1);
+    }
+}
+.greenRk{
+    z-index: -20;
+    top: 105px;
+    left:228px;
+    animation: greenRk 1s linear infinite;
+    transform-origin: 50% 0%;
+}
+@keyframes greenRk{
+    0%{
+        transform: scale(0.9);
+    }
+    10%{
+        transform: scale(1);
+    }
+    30%{
+        transform: scale(0.9);
+    }
+    70%{
+        transform: scale(1);
+    }
+    100%{
+transform: scale(0.9);
+    }
+}
+.redH{
+    z-index: -20;
+    top: 105px;
+    left: 405px;
+    animation: redH 2s linear infinite;
+    transform-origin: 80% 0%;
+}
+@keyframes redH{
+    0%{
+        transform:scaleX(0.8)
+    }
+    30%{
+        transform: scaleX(0.9);
+    }
+    40%{
+        transform: scaleX(1);
+    }
+    65%{
+        transform: scaleX(0.9);
+    }
+    80%{
+        transform: scaleX(0.8);
+    }
+    90%{
+        transform: scaleX(0.9);
+    }
+    100%{
+        transform: scaleX(0.8);
+    }
+}.coffee{
+    z-index: -20;
+    top: 111px;
+    left: 49px;
+    animation: coffee 3s linear alternate infinite;
+    transform-origin: 0 100%;
+}
+@keyframes coffee{
+    0%{
+        transform:rotate(-15deg)
+    }
+    30%{
+        transform: rotate(-15deg)
+
+    }
+    100%{
+        transform: rotate(15deg)
+    }
+}
+.greenH{
+    top: 66px;
+    left: 438px;
+    animation: greenH 5s linear infinite;
+}
+@keyframes greenH{
+    0%{
+        transform:rotate(0deg)
+    }
+    30%{
+        transform: rotate(-15deg)
+
+    }
+    45%{
+        transform:rotate(0deg)
+    }
+    60%{
+        transform:rotate(-15deg)
+    }
+    80%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform: rotate(-15deg)
+    }
+}
+.yellowH{
+    z-index: -10;
+    top: -27px;
+    left: 195px;
+    animation: yellowH 5s linear infinite;
+}
+@keyframes yellowH{
+    0%{
+        transform:rotate(0deg)
+    }
+    30%{
+        transform: rotate(-15deg)
+
+    }
+    45%{
+        transform:rotate(0deg)
+    }
+    60%{
+        transform:rotate(-15deg)
+    }
+    80%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform: rotate(0deg)
+    }
+}
+.noga{
+    top: 199px;
+    left: 543px;
+    z-index: -10;
+    animation: noga 4s linear infinite;
+}
+@keyframes noga{
+    0%{
+        transform:rotate(0deg)
+    }
+    30%{
+        transform: rotate(-5deg)
+
+    }
+    45%{
+        transform:rotate(0deg)
+    }
+    60%{
+        transform:rotate(-5deg)
+    }
+    80%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform: rotate(2deg)
+    }
+}
+.girlH{
+    top: 58px;
+    left: 296px;
+    z-index: -22;
+    animation: girlH 3s linear infinite;
+
+}
+@keyframes girlH {
+    0%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(8deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    80%{
+        transform: rotate(8deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.list{
+    top: 86px;
+    left: 123px;
+    z-index: -10;
+    animation: list 3s linear infinite;
+    transform-origin: 80% 50%;
+}
+@keyframes list {
+    0%{
+        transform: rotateY(0deg);
+    }
+    30%{
+        transform: rotateY(-45deg);
+    }
+    50%{
+        transform: rotateY(0deg);
+    }
+    70%{
+        transform: rotateY(-15deg);
+    }
+    85%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+.ryka1{
+    top: 153px;
+    left: 537px;
+    z-index: -22;
+    animation: ryka1 2s linear infinite;
+   
+}
+.ryka2{
+    top: 155px;
+    left:537px;
+    z-index: -10;
+    animation: ryka2 2s linear infinite;
+    
+}
+@keyframes ryka1 {
+    0%{
+        transform: scaleY(2);
+    }
+    30%{
+        transform: scaleY(0.9);
+    }
+    50%{
+        transform: scaleY(2);
+    }
+    70%{
+        transform: scaleY(0.9);
+    }
+    85%{
+        transform: scaleY(2);
+    }
+    100%{
+        transform: scaleY(0.9);
+    }
+}
+@keyframes ryka2 {
+    0%{
+        transform: scaleY(0.9);
+    }
+    30%{
+        transform: scaleY(2);
+    }
+    50%{
+        transform: scaleY(0.9);
+    }
+    70%{
+        transform: scaleY(2);
+    }
+    85%{
+        transform: scaleY(0.9);
+    }
+    100%{
+        transform: scaleY(2);
+    }
+}
